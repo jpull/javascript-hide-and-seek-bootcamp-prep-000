@@ -9,5 +9,6 @@ function increaseRankBy(n) {
 
   for (let i = 0; i < lis.length; i++) {
     lis[i].innerHTML = (i + n).toString()
+    console.log((i + n).toString());
   }
 }
